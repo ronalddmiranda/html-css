@@ -9,12 +9,19 @@ font-family: 'Passion One', cursive;
 font-family: 'Sriracha', cursive;
 */
 
+:root {
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: 'Passion One', cursive;
+    --fonte03: 'Sriracha', cursive;
+}
 * {
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
-body {
-    margin: auto;
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
 }
 
 header {
